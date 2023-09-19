@@ -1,26 +1,26 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-ao-crud.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title":"video node",
-    "description":"esse é meu primeiro video",
+    "title":"Video teste",
+    "description":"esse é meu primeiro video teste",
     "duration":180
 }
 
 ###
 
-GET http://localhost:3333/videos
+GET https://node-do-zero-ao-crud.onrender.com/videos
 
 ###
-PUT http://localhost:3333/videos/5d84a201-f36b-4d39-99e0-43f4995325f6
+PUT https://node-do-zero-ao-crud.onrender.com/videos/bc94b29f-6319-4937-8e2b-14196eddd146
 Content-Type: application/json
 
 {
-    "title":"video 04",
-    "description":"deus",
-    "duration":180
+    "title":"video teste node",
+    "description":"deuvsvss",
+    "duration":12380
 }
 
 ###
-DELETE http://localhost:3333/videos/a63e1100-65c2-4888-bf71-876050416eb7
+DELETE https://node-do-zero-ao-crud.onrender.com/videos/bc94b29f-6319-4937-8e2b-14196eddd146
 
